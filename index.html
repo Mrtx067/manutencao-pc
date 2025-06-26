@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner de Manutenção e Limpeza de Computadores</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #1a202c; /* Fundo mais escuro (dark blue-gray) */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        /* Custom styles for aesthetic enhancements */
+        .gradient-bg {
+            background: linear-gradient(to right, #4a90e2, #50b0f0); /* Blue gradient */
+        }
+    </style>
+</head>
+<body class="p-4">
+    <div class="max-w-2xl w-full mx-auto bg-gray-800 rounded-2xl shadow-xl overflow-hidden md:flex flex-col md:flex-row transform transition-all duration-300 hover:scale-105 border border-gray-700">
+        <!-- Image Section -->
+        <div class="md:w-1/3 p-4 md:p-6 flex items-center justify-center bg-gray-700 rounded-tl-xl rounded-bl-xl">
+            <img src="https://placehold.co/400x300/374151/d1d5db?text=Manutenção+de+PC" alt="Ilustração de manutenção de computador" class="w-full h-auto object-cover rounded-xl shadow-md">
+        </div>
+
+        <!-- Content Section -->
+        <div class="md:w-2/3 p-6 md:p-8 flex flex-col justify-center text-center md:text-left">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-white mb-4 leading-tight">
+                Seu PC Merece Cuidado!
+            </h1>
+            <p class="text-lg text-gray-300 mb-6">
+                Oferecemos serviços completos de <span class="font-semibold text-blue-400">manutenção e limpeza profissional</span> para garantir a performance e longevidade do seu computador.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                <div class="bg-gray-700 p-4 rounded-lg shadow-sm">
+                    <h3 class="font-bold text-blue-300 text-xl mb-2">💻 Manutenção Preventiva</h3>
+                    <p class="text-gray-400 text-sm">Otimização de sistema, verificação de hardware, atualização de drivers.</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg shadow-sm">
+                    <h3 class="font-bold text-green-300 text-xl mb-2">🧼 Limpeza Física Detalhada</h3>
+                    <p class="text-gray-400 text-sm">Remoção de poeira, troca de pasta térmica, organização de cabos.</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg shadow-sm">
+                    <h3 class="font-bold text-yellow-300 text-xl mb-2">🛡️ Remoção de Vírus e Malware</h3>
+                    <p class="text-gray-400 text-sm">Limpeza profunda e proteção contra ameaças digitais.</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg shadow-sm">
+                    <h3 class="font-bold text-red-300 text-xl mb-2">⚡ Melhoria de Desempenho</h3>
+                    <p class="text-gray-400 text-sm">Deixe seu computador mais rápido e eficiente.</p>
+                </div>
+            </div>
+
+            <!-- Botão de agendamento com link para WhatsApp -->
+            <a href="https://wa.me/5567991140769" target="_blank" class="inline-block px-8 py-3 bg-green-600 text-white font-bold text-lg rounded-full shadow-lg hover:bg-green-700 transition duration-300 transform hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-green-300">
+                Agende Sua Manutenção Via WhatsApp!
+            </a>
+
+            <p class="text-sm text-gray-400 mt-4">
+                Ligue: <a href="tel:+5567991140769" class="font-semibold text-gray-300 hover:text-blue-400 transition-colors duration-200">(67) 99114-0769</a> | WhatsApp: <a href="https://wa.me/5567991140769" target="_blank" class="font-semibold text-gray-300 hover:text-green-400 transition-colors duration-200">(67) 99114-0769</a> | E-mail: <a href="mailto:contato@seuemail.com" class="font-semibold text-gray-300 hover:text-blue-400 transition-colors duration-200">contato@seuemail.com</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
